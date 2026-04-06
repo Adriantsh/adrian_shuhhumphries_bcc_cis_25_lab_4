@@ -1,0 +1,11 @@
+Answers to Questions in Part 1:
+
+1. int val is passed by value and int* ptr is passed by reference (as a pointer variable).
+
+2. The final value of alpha will be 20. The value of alpha does not change because the variable is
+passed by value to the processData function, meaning the function will not directly act on the variable
+alpha itself. Instead, the function creates a copy of alpha and manipulates the copy instead.
+
+3. The final value of beta will be 30. The value of beta does change because the address of the variable is
+passed to the processData function as a pointer. This means the function can directly manipulate the data that is
+stored in beta.
